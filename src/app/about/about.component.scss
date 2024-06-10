@@ -1,8 +1,20 @@
+
+p{font-size: 18px;
+    line-height:1.6;
+    font-family: Verdana;
+
+}
 .aboutus{
     text-align: center;
-    color: blue;
+    background:-webkit-linear-gradient(45deg,#0B006C 0%,#122E51 31%,#003268 52%,#0C6A66 71%,#008066 97%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 .flexbox1{
     display:flex;
@@ -12,45 +24,37 @@
 
     display:flex;
     justify-content: space-evenly;
-    width:100%;
-    height:auto;
+  
 }
-.flex-container1{
-    width:200px;
-    height:400px;
-    background-color: skyblue;
-    text-align:center;
-    flex-grow:6;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
     
-.flex-container2{
-    background-color: whitesmoke;
-    width:200px;
-    height:400px;
-    text-align:center;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow:6;
-    flex-direction: column;
+
+.flex-item{
+    padding:10px;
+    margin-bottom: 10px;
 }
-.hover-titles{
-    display:inline-flex;
-    gap: 100px;
-    position:relative;
+
+
+
+.toggle-headlines{
+    display:flex;
+    justify-content: space-between;
     
 }
 
-.hoverable-button:hover + .display-on-hover{
-    display:inline-flex;
+
+
+.flex-container1{
+    background-color: skyblue;
+    padding:50px;
+    text-align: center;
 }
-.display-on-hover{
-    display:none
+.flex-container2{
+    background-color: darkgrey;
+    padding:50px;
+    text-align: center;
 }
+
 
   
   
