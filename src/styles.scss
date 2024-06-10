@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+//linear gradient
+//linear-gradient(-90deg,#5cc2ed 0,#5d62ee 25%,#c298d3 50%,currentColor 51%,currentColor 100%)
+//font colors
+//light:#AAAAAA
+//font family
+
+
+//button hover
+//background: linear-gradient(45deg, #5cc3ee 0, #5d91ef 29%, #5e5ef0 50%, #947be1 73%, #ca97d2 100%);
+
+//button basic
+.qodef-button.qodef-layout--outlined {
+    color: #000;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(70deg, #57b8e0, #5762e2, #be8ec6);
+    background: 0 0;
+}
+.qodef-button.qodef-html--link {
+    font-family: Archivo, sans-serif;
+    font-size: 12px;
+    line-height: 1.33em;
+    letter-spacing: .2em;
+    font-weight: 500;
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    outline: 0;
+    transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+    padding: 17px 48px 15px 50px;
+}
+.archivo {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.heebo {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.syne {
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+::selection {
+    color: #fff;
+    background: #57b8e0;
+}
