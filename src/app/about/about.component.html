@@ -37,13 +37,11 @@
   <div class="col-lg-4">
     <div class="flex-container ">
       <div class="flex-item">
-        <h2>OUR <br> EXPERTIZE</h2>
+        <h2>OUR <br> VISION</h2>
 
-        <p>Our expertise lies in developing innovative software solutions tailored to meet the
-          unique needs of our clients. We specialize in custom software development,
-          creating bespoke applications that streamline operations and drive efficiency.
-          Our team excels in mobile app development, crafting user-friendly and engaging apps for both iOS and Android
-          platforms.</p>
+        <p>We envision a future where technology seamlessly integrates into every aspect of business, 
+          driving growth and enabling new possibilities. Our goal is to
+           be at the forefront of this transformation, leading the way with innovative software solutions</p>
       </div>
     </div>
   </div>
@@ -54,14 +52,14 @@
         </h2>
         <p> We strive for excellence in every project, upholding the highest standards of quality and performance. Our
           customer focus ensures that we place our clients' needs at the forefront, delivering solutions that drive
-          their success and satisfaction. We believe in the power of collaboration,
-          fostering a team-oriented environment where diverse ideas and perspectives thrive</p>
+          their success and satisfaction.</p>
 
       </div>
     </div>
   </div>
 </div>
 </div>
+
 <div class="container">
 
 <div class="row mt-5 ">
@@ -69,55 +67,57 @@
     <h3 style="color:darkgray;letter-spacing:4px;font-size: 18px;">BRANDS</h3>
     <h2>TRUSTED AND <br>
       SUPPORTED<br>BY MANY</h2>
-    <div class="toggle-headlines">
-      <div class="toggle-design">
-        <button class="navbar-toggler" (click)="toggledesign()">INTEGRITY</button>
-      </div>
-      <div class="toggle-marketing">
-        <button class="navbar-toggler" (click)="togglemarketing()">OUR APPROACH</button>
-      </div>
-      <div class="toggle-devs">
-        <button class="navbar-toggler" (click)="toggledevs()">Devs</button>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <button class="nav-link" (click)="toggledesign()" >DESIGNING</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" (click)="togglemarketing()">OUR APPROACH</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" (click)="toggledevs()">OUR VALUES</button>
+        </li>
+       
+      </ul>
+  
+      <div class="toggle-content-list">
+        <div class="toggle-content-designing">
+          <p *ngIf="showme">Integrity is the bedrock of Lakshya We prioritize honesty, transparency, and ethical conduct
+            in all our interactions.
+            Our commitment to integrity guides our decisions, actions, and relationships with clients, partners, and
+            employees.
+            With Lakshya, you can trust that we will always operate with integrity, accountability, and dedication to
+            doing what is
+            right.
+          </p>
+        </div>
+        <div class="toggle-content-marketing">
+          <p *ngIf="showmee">Our approach is centered around delivering exceptional software solutions
+            tailored to the unique needs of our clients. We prioritize a client-centric approach, beginning with
+            a thorough understanding of your business objectives, challenges, and requirements. Utilizing agile
+            methodologies, we break down projects into manageable iterations,
+            ensuring flexibility and adaptability to changing needs.
+          </p>
+        </div>
+        <div class="toggle-content-devs">
+          <p *ngIf="showmeee">We offer more than just innovative software solutions;
+            we provide a partnership built on trust, expertise, and a shared commitment to your success.
+            With years of experience in the industry, our team of skilled professionals brings a
+            wealth of knowledge and expertise to every project.
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="toggle-content-list">
-      <div class="toggle-content-designing">
-        <p *ngIf="showme">Integrity is the bedrock of Lakshya We prioritize honesty, transparency, and ethical conduct
-          in all our interactions.
-          Our commitment to integrity guides our decisions, actions, and relationships with clients, partners, and
-          employees.
-          With Lakshya, you can trust that we will always operate with integrity, accountability, and dedication to
-          doing what is
-          right.
-        </p>
-      </div>
-      <div class="toggle-content-marketing">
-        <p *ngIf="showmee">Our approach is centered around delivering exceptional software solutions
-          tailored to the unique needs of our clients. We prioritize a client-centric approach, beginning with
-          a thorough understanding of your business objectives, challenges, and requirements. Utilizing agile
-          methodologies, we break down projects into manageable iterations,
-          ensuring flexibility and adaptability to changing needs.
-        </p>
-      </div>
-      <div class="toggle-content-devs">
-        <p *ngIf="showmeee">We offer more than just innovative software solutions;
-          we provide a partnership built on trust, expertise, and a shared commitment to your success.
-          With years of experience in the industry, our team of skilled professionals brings a
-          wealth of knowledge and expertise to every project.
-        </p>
-      </div>
+  
+    <div class="col-lg-6">
+      <img *ngIf="showme" src="../../assets/images/aboutus.jpg" alt="noimage" width="850" height="500">
+      <img *ngIf="showmee" src="../../assets/images/marketing.jpg" alt="noimage" width="850" height="500">
+      <img *ngIf="showmeee" src="../../assets/images/aboutus.jpg" alt="noimage" width="850" height="500">
     </div>
+  
   </div>
-
-  <div class="col-lg-6">
-    <img *ngIf="showme" src="../../assets/images/aboutus.jpg" alt="noimage" width="850" height="500">
-    <img *ngIf="showmee" src="../../assets/images/marketing.jpg" alt="noimage" width="850" height="500">
-    <img *ngIf="showmeee" src="../../assets/images/aboutus.jpg" alt="noimage" width="850" height="500">
   </div>
-
-</div>
-</div>
+  
 
 
 <div class="row flex-container mt-5">

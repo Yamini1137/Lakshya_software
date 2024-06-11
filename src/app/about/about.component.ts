@@ -9,11 +9,12 @@ export class AboutComponent {
   showme: boolean = true;
   showmee: boolean = false;
   showmeee: boolean = false
+  
+
 
   ngOnInit() {
 
-  }
-  toggledesign() {
+  } toggledesign() {
     this.showme = !this.showme
     this.showmee = false
     this.showmeee = false
@@ -30,14 +31,18 @@ export class AboutComponent {
     this.showme = false
     this.showmee = false
   }
-
-
-
-
-
-
-
 }
+
+  
+
+
+
+
+
+
+
+
+
 
 
 
