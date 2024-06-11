@@ -1,0 +1,53 @@
+.heading1{
+    font-family: Syne, sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 35px;
+    line-height: 1.14em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.inputboxes{
+    display: flex;
+    gap:15px;
+}
+.inputcenter{
+    text-align:center;
+}
+.inputbox{
+    width:300px;
+    height:100px;
+}
+.btn-light:hover{
+    background: linear-gradient(75.2deg, rgb(41, 196, 255)
+     -2.5%, rgb(255, 158, 211) 55%, rgb(255, 182, 138) 102.3%);
+
+}
+
+
+
+.inputbox1{
+    width:150px;
+    height:60px;
+    letter-spacing:2px;
+}
+.flex-container1{
+    background-color: skyblue;
+    padding:50px;
+    text-align: center;
+}
+.flex-container2{
+    background-color: darkgrey;
+    padding:50px;
+    text-align: center;
+}
+.flex-container{
+
+    display:flex;
+    justify-content: space-evenly;
+  
+}
+::placeholder{
+    color:lightgrey;
+}
