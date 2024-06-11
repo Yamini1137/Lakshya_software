@@ -1,5 +1,5 @@
 p a {
-    background-image: -webkit-linear-gradient(5deg, #5cc3ee 0, #5d91ef 29%, #5e5ef0 50%, #947be1 73%, #ca97d2 100%);
+    background-image: -webkit-linear-gradient(5deg,#0B006C 0%,  #122E51 31%,    #003268 52%,    #0C6A66 71%,    #008066 97%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -14,4 +14,10 @@ p a {
     background-color: #fff;
   
     
+}
+nav{
+    margin-left: auto;
+}
+a img{
+    width: 175px;
 }
