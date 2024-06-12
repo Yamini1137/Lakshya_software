@@ -17928,9 +17928,9 @@ body:not([class*=deon-core]) #qodef-page-header .qodef-header-logo-link.qodef-he
     margin: 0 0 10px
 }
 
-body:not([class*=deon-core]) .widget:not(.widget_deon_core_title_widget) {
+/* body:not([class*=deon-core]) .widget:not(.widget_deon_core_title_widget) {
     margin: 0 0 60px
-}
+} */
 
 .widget .qodef-widget-title {
     margin: 0 0 23px
@@ -18058,9 +18058,9 @@ body:not([class*=deon-core]) .widget:not(.widget_deon_core_title_widget) {
     color: #fff
 }
 
-body:not([class*=deon-core]) #qodef-top-area .widget:not(.widget_deon_core_title_widget) {
+/* body:not([class*=deon-core]) #qodef-top-area .widget:not(.widget_deon_core_title_widget) {
     margin: 0 0 60px
-}
+} */
 
 #qodef-top-area .widget:not(.widget_deon_core_title_widget) h1:not([class*=qodef]),#qodef-top-area .widget:not(.widget_deon_core_title_widget) h2:not([class*=qodef]),#qodef-top-area .widget:not(.widget_deon_core_title_widget) h3:not([class*=qodef]),#qodef-top-area .widget:not(.widget_deon_core_title_widget) h4:not([class*=qodef]),#qodef-top-area .widget:not(.widget_deon_core_title_widget) h5:not([class*=qodef]),#qodef-top-area .widget:not(.widget_deon_core_title_widget) h6:not([class*=qodef]) {
     color: #fff
@@ -18201,9 +18201,9 @@ body:not([class*=deon-core]) #qodef-top-area .widget:not(.widget_deon_core_title
     color: #fff
 }
 
-body:not([class*=deon-core]) #qodef-page-footer .widget:not(.widget_deon_core_title_widget) {
+/* body:not([class*=deon-core]) #qodef-page-footer .widget:not(.widget_deon_core_title_widget) {
     margin: 0 0 60px
-}
+} */
 
 #qodef-page-footer .widget:not(.widget_deon_core_title_widget) h1:not([class*=qodef]),#qodef-page-footer .widget:not(.widget_deon_core_title_widget) h2:not([class*=qodef]),#qodef-page-footer .widget:not(.widget_deon_core_title_widget) h3:not([class*=qodef]),#qodef-page-footer .widget:not(.widget_deon_core_title_widget) h4:not([class*=qodef]),#qodef-page-footer .widget:not(.widget_deon_core_title_widget) h5:not([class*=qodef]),#qodef-page-footer .widget:not(.widget_deon_core_title_widget) h6:not([class*=qodef]) {
     color: #fff
@@ -18360,9 +18360,9 @@ body:not([class*=deon-core]) #qodef-page-footer .widget:not(.widget_deon_core_ti
     color: #7c7c7c
 }
 
-body:not([class*=deon-core]) #qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) {
+/* body:not([class*=deon-core]) #qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) {
     margin: 0 0 60px
-}
+} */
 
 #qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) h1:not([class*=qodef]),#qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) h2:not([class*=qodef]),#qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) h3:not([class*=qodef]),#qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) h4:not([class*=qodef]),#qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) h5:not([class*=qodef]),#qodef-page-footer-bottom-area-inner .widget:not(.widget_deon_core_title_widget) h6:not([class*=qodef]) {
     color: #7c7c7c
@@ -18506,9 +18506,9 @@ body:not([class*=deon-core]) #qodef-page-footer-bottom-area-inner .widget:not(.w
     color: #000
 }
 
-body:not([class*=deon-core]) #qodef-side-area .widget:not(.widget_deon_core_title_widget) {
+/* body:not([class*=deon-core]) #qodef-side-area .widget:not(.widget_deon_core_title_widget) {
     margin: 0 0 60px
-}
+} */
 
 #qodef-side-area .widget:not(.widget_deon_core_title_widget) h1:not([class*=qodef]),#qodef-side-area .widget:not(.widget_deon_core_title_widget) h2:not([class*=qodef]),#qodef-side-area .widget:not(.widget_deon_core_title_widget) h3:not([class*=qodef]),#qodef-side-area .widget:not(.widget_deon_core_title_widget) h4:not([class*=qodef]),#qodef-side-area .widget:not(.widget_deon_core_title_widget) h5:not([class*=qodef]),#qodef-side-area .widget:not(.widget_deon_core_title_widget) h6:not([class*=qodef]) {
     color: #000
@@ -18649,9 +18649,9 @@ body:not([class*=deon-core]) #qodef-side-area .widget:not(.widget_deon_core_titl
     color: #fff
 }
 
-body:not([class*=deon-core]) .qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) {
+/* body:not([class*=deon-core]) .qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) {
     margin: 0 0 60px
-}
+} */
 
 .qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) h1:not([class*=qodef]),.qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) h2:not([class*=qodef]),.qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) h3:not([class*=qodef]),.qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) h4:not([class*=qodef]),.qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) h5:not([class*=qodef]),.qodef-mega-menu-widget-holder .widget:not(.widget_deon_core_title_widget) h6:not([class*=qodef]) {
     color: #fff
