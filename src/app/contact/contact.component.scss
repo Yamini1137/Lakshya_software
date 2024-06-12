@@ -14,6 +14,7 @@
 }
 .inputcenter{
     text-align:center;
+    color:gray
 }
 .inputbox{
     width:300px;
@@ -23,6 +24,10 @@
     background: linear-gradient(75.2deg, rgb(41, 196, 255)
      -2.5%, rgb(255, 158, 211) 55%, rgb(255, 182, 138) 102.3%);
 
+}
+.inputcenter1{
+    text-align: start;
+    color:grey
 }
 
 
@@ -47,7 +52,4 @@
     display:flex;
     justify-content: space-evenly;
   
-}
-::placeholder{
-    color:lightgrey;
 }
