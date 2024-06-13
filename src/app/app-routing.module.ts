@@ -11,7 +11,9 @@ const routes: Routes = [
   { path: 'AboutUs', component: AboutComponent },
   { path: 'ContactUs', component: ContactComponent },
   { path: 'Blog', component: BlogComponent },
-  { path: 'Services', component: ServicesComponent }
+  // { path: 'Services', component: ServicesComponent },
+  { path: 'Services', loadChildren: () => import('./services/services.module').then(m => m.ServicesModule), },
+
 ];
 
 @NgModule({

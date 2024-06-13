@@ -10,6 +10,7 @@ import { BlogComponent } from './blog/blog.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { ServicesComponent } from './services/services.component';
+import { ServicesModule } from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,12 @@ import { ServicesComponent } from './services/services.component';
     BlogComponent,
     HeaderComponent,
     FooterComponent,
-    ServicesComponent
+    ServicesComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
