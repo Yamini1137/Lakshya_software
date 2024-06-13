@@ -1,0 +1,97 @@
+
+.slide{
+    margin: 30px 0px;
+}
+
+  .btn-default-1 {
+    font-family: Archivo, sans-serif;
+    font-size: 12px;
+    line-height: 1.33em;
+    letter-spacing: .2em;
+    font-weight: 500;
+       text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    outline: 0;
+    transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+    padding: 17px 48px 15px 50px;
+    color: #000;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(70deg, #0B006C, #122E51, #003268, #0C6A66, #008066);
+    background: 0 0;
+  }
+  
+  .btn-default-1:hover,
+  .previous:hover,
+  .next:hover {
+    background: linear-gradient(45deg, #0B006C 0%, #122E51 31%, #003268 52%, #0C6A66 71%, #008066 97%);
+    color: white;
+  
+  }
+  
+  
+  .previous,
+  .next {
+    font-family: Archivo, sans-serif;
+    font-size: 12px;
+    line-height: 1.33em;
+    letter-spacing: .2em;
+    font-weight: 500;
+    // position: relative;
+    // display: inline-flex;
+    // vertical-align: middle;
+    // width: auto;
+    // margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    outline: 0;
+    transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+    padding: 17px 48px 15px 50px;
+    color: #000;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(70deg, #0B006C, #122E51, #003268, #0C6A66, #008066);
+    background: 0 0;
+    height: min-content;
+    width: min-content;
+  
+  }
+  
+  p .qodef-m-subtitle {
+    font-size: 13px;
+    letter-spacing: 4px;
+    line-height: 16px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Syne, sans-serif;
+    margin-bottom: 7px;
+  }
+  
+  
+  .qodef-shortcode {
+    margin: auto;
+    width: 58%;
+    display: block;
+  }
+  
+  .intro-section{
+  margin-top: 160px;
+  }
+  .qodef-section-title .qodef-m-subtitle {
+    font-size: 13px;
+    letter-spacing: 4px;
+    line-height: 16px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Heebo, sans-serif;
+    margin-bottom: 7px;
+  }
+
+  .services .col-lg-4{
+    // background-color: #F3F3F3;
+    padding: 10px;
+  }

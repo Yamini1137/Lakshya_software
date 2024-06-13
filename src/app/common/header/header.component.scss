@@ -1,23 +1,56 @@
 p a {
-    background-image: -webkit-linear-gradient(5deg,#0B006C 0%,  #122E51 31%,    #003268 52%,    #0C6A66 71%,    #008066 97%);
+    background-image: -webkit-linear-gradient(5deg, #0B006C 0%, #122E51 31%, #003268 52%, #0C6A66 71%, #008066 97%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.offcanvas{
-    
-    width: 557px;
-    
 
+.offcanvas {
+    width: 557px;
     height: 100%;
-  
-    padding: 178px 5% 35px 122px;
+    padding: 80px 50px;
     background-color: #fff;
-  
-    
+
+
 }
-nav{
+
+nav {
     margin-left: auto;
 }
-a img{
+
+a img {
     width: 175px;
+}
+
+.h4,
+h4 {
+    font-size: 1.5rem;
+}
+.sidebar-logo{
+    width: 267px;
+}
+
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    background-color: transparent;
+    color: #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(70deg, #008066, #122E51, #0C6A66);
+}
+.widget.widget_nav_menu ul li a {
+//  font-size: 20px; 
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 500;
+    color: white;
+}
+.widget_deon_core_separator {    margin: 0 0 27px;
+}
+.qodef-button.qodef-layout--outlined {
+    color: #000000;
+border: none;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(70deg, #0B006C, #122E51, #003268, #0C6A66, #008066);
+    background: 0 0;
 }

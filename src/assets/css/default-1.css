@@ -530,7 +530,7 @@
     display: flex;
     align-items: center;
     padding: 45px 50px;
-    background: linear-gradient(-120deg,rgba(202,151,210,.9),rgba(94,94,240,.9) 46%,rgba(92,195,238,.9))
+    background: linear-gradient(-120deg, #0B006C, #122E51 , #003268,#0C6A66 ,#008066)
 }
 
 #qodef-author-info .qodef-m-image {
@@ -16721,7 +16721,7 @@ body:not([class*=deon-core]) #qodef-page-header .qodef-header-logo-link.qodef-he
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    padding: 0 73px
+    padding: 0 83px
 }
 
 .qodef-layout--justified-gallery {

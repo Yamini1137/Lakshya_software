@@ -7,35 +7,36 @@
     margin: 25px 0;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
-}
+ }
 .inputboxes{
     display: flex;
     gap:15px;
 }
-.inputcenter{
-    text-align:center;
-    color:gray
-}
-.inputbox{
-    width:300px;
-    height:100px;
-}
+// .inputcenter{
+//     text-align:center;
+//     color:gray
+// }
+// .inputbox{
+//     width:300px;
+//     height:100px;
+// }
 .btn-light:hover{
-    background: linear-gradient(75.2deg, rgb(41, 196, 255)
-     -2.5%, rgb(255, 158, 211) 55%, rgb(255, 182, 138) 102.3%);
-
+    background: linear-gradient(75.2deg, #0B006C 0%, #122E51 31%, #003268 52%, #0C6A66 71%, #008066 97%);
+color: rgb(255, 255, 255);
 }
-.inputcenter1{
-    text-align: start;
-    color:grey
-}
+// .inputcenter1{
+//     text-align: start;
+//     color:grey
+// }
 
 
 
 .inputbox1{
-    width:150px;
-    height:60px;
+    width:min-content;
+    height:max-width;
+    padding: 10px 30px;
     letter-spacing:2px;
+    border-radius: 0px;
 }
 .flex-container1{
     background-color: skyblue;
