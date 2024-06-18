@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ServicesRoutingModule } from './services-routing.module';
-import { DevopsComponent } from './devops/devops.component';
+import { CrmComponent } from './crm/crm.component';
 import { BaseServicesComponent } from './base-services/base-services.component';
 import { ErpComponent } from './erp/erp.component';
 import { CustomizedComponent } from './customized/customized.component';
@@ -15,7 +15,7 @@ import { CloudComponent } from './cloud/cloud.component';
 
 @NgModule({
   declarations: [
-    DevopsComponent,
+    CrmComponent,
     BaseServicesComponent,
     ErpComponent,
     CustomizedComponent,

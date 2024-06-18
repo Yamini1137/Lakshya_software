@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-devops',
-  templateUrl: './devops.component.html',
-  styleUrl: './devops.component.scss'
+  selector: 'app-crm',
+  templateUrl: './crm.component.html',
+  styleUrl: './crm.component.scss'
 })
-export class DevopsComponent {
+export class CrmComponent {
 
 }
