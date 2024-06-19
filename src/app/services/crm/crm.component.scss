@@ -12,51 +12,5 @@ p{font-size: 18px;
 h3{
     text-align:center;
 }
-.service-wrap {
-    
-    padding: 50px 30px;
-      position: relative;
-  }
-  
-  .service-wrap p{
-      position: relative;
-  }
-  
-  .service-wrap:hover {
-    background-image: url(https://i.ibb.co/mykzQks/services1.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: local;
-    transition: all .5s;
-  }
-  
-  .service-wrap:hover:before {
-    background: rgba(0, 0, 0, 0.2901960784313726);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0px;
-    content: "";
-    top: 0;
-    opacity: 1;
-  }
-  
-  .service-wrap:hover h4,.service-wrap:hover p{
-    color: #fff;
-  }
-  .service-wrap h4 {
-    font-weight: 600;
-    color:black;
-    margin-bottom: 17px;
-    font-size: 18px;
-    text-transform: capitalize;
-      position: relative;
-  }
-  .service-wrap a {
-    font-size: 14px;
-    font-weight: 600;
-      position: relative;
-  
-  }
  
  

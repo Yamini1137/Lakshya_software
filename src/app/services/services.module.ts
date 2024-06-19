@@ -11,6 +11,8 @@ import { BusinessComponent } from './business/business.component';
 import { EnterpriseComponent } from './enterprise/enterprise.component';
 import { HumanComponent } from './human/human.component';
 import { CloudComponent } from './cloud/cloud.component';
+import { AiComponent } from './ai/ai.component';
+import { IotComponent } from './iot/iot.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { CloudComponent } from './cloud/cloud.component';
     BusinessComponent,
     EnterpriseComponent,
     HumanComponent,
-    CloudComponent
+    CloudComponent,
+    AiComponent,
+    IotComponent
   ],
   imports: [
     CommonModule,

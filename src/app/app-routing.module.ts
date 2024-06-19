@@ -6,6 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { ServicesComponent } from './services/services.component';
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'AboutUs', component: AboutComponent },
