@@ -10,10 +10,14 @@ import {HumanComponent } from './human/human.component';
 import {CloudComponent } from './cloud/cloud.component';
 import {AiComponent } from './ai/ai.component';
 import {IotComponent } from './iot/iot.component';
+import {CustomizedComponent } from './customized/customized.component';
 
 const routes: Routes = [
   {
     path:'',component:BaseServicesComponent
+  },
+  {
+    path:'customized',component:CustomizedComponent
   },
   {
     path:'crm',component:CrmComponent
