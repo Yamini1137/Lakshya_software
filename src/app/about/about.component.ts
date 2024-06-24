@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   showme: boolean = true;
-  showmee: boolean = true;
-  showmeee: boolean = true;
+  showmee: boolean = false;
+  showmeee: boolean = false;
   
 
 
@@ -16,22 +16,24 @@ export class AboutComponent {
 
   }
    toggledesign() {
-    this.showme =!this.showme
-    this.showmee = false
-    this.showmeee = false
+  this.showme=!this.showme;
+ this.showmee=false;
+ this.showmeee=false;
   }
 
   togglemarketing() {
-    this.showmee =!this.showmee
-    this.showme = false
-    this.showmeee = false
+    this.showmee=!this.showmee;
+    this.showmeee=false;
+    this.showme=false;
+   
 
   }
   toggledevs() {
-    this.showmeee = !this.showmeee
-    this.showme = false
-    this.showmee = false
-  }
+    this.showmeee=!this.showmeee;
+    this.showme=false;
+    this.showmee=false;
+   
+  }  
 }
 
   
