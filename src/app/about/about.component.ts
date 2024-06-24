@@ -7,21 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   showme: boolean = true;
-  showmee: boolean = false;
-  showmeee: boolean = false
+  showmee: boolean = true;
+  showmeee: boolean = true;
   
 
 
   ngOnInit() {
 
-  } toggledesign() {
-    this.showme = !this.showme
+  }
+   toggledesign() {
+    this.showme =!this.showme
     this.showmee = false
     this.showmeee = false
   }
 
   togglemarketing() {
-    this.showmee = !this.showmee
+    this.showmee =!this.showmee
     this.showme = false
     this.showmeee = false
 
