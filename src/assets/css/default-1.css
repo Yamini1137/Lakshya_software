@@ -13538,12 +13538,12 @@ blockquote.instagram-media,iframe.instagram-media {
 
 ::selection {
     color: #fff;
-    background: var(--qode-main-color)
+    background: black;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: var(--qode-main-color)
+    background: black
 }
 
 .has-drop-cap:after {
