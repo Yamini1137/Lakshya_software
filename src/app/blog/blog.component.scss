@@ -1,3 +1,30 @@
 .widget_block{
     margin: 0px;
 }
+.widget .tagcloud a:hover, .widget .wp-block-tag-cloud a:hover {
+    background: linear-gradient(45deg, #0B006C 0, #122E51 29%, #003268 50%, #0C6A66 73%, #008066 100%);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(70deg, #008066, #0C6A66, #0B006C);
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+.widget .tagcloud a, .widget .wp-block-tag-cloud a {
+    font-family: Archivo, sans-serif;
+    font-size: 12px;
+    color: #000;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 500;
+    padding: 12px 26px 9px 28px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(70deg, #008066, #0C6A66, #0B006C);
+    margin: 0 0 3px -2px;
+}
+// #0B006C ---0%
+// #122E51 ----31%
+// #003268 ----52%
+// #0C6A66 ----71%
+// #008066----97% 
