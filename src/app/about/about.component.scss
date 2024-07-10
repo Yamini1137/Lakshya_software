@@ -8,7 +8,7 @@ p {
 .aboutus {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-
+    margin: 20px auto 45px auto;
     color: rgb(255, 255, 255);
     background-image: -webkit-linear-gradient(10deg, #008066 0%, #122E51 31%, #003268 52%, #0C6A66 71%, #0B006C 97%);
     background-clip: text;
@@ -59,4 +59,24 @@ p {
     background-color: darkgrey;
     padding: 50px;
     text-align: center;
+}
+
+.nav-tabs .nav-link.active-tab {
+    // background-color: #007bff;
+    color: rgb(0, 0, 0);
+    border-bottom: none;
+    border: 1px solid #0b6e69;
+    border-bottom: none;
+    border-radius: 0px;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: calc(-1* var(--bs-nav-tabs-border-width));
+    background: 0 0;
+    border-bottom: 1px solid #dee2e6;
+    color: #0b6e69;
+}
+
+.design-image {
+    align-content: end;
 }

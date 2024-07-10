@@ -17072,9 +17072,9 @@ body:not([class*=deon-core]) #qodef-page-header .qodef-header-logo-link.qodef-he
     margin: 0 22px
 }
 
-.qodef-header-navigation>ul>li:first-child {
+/* .qodef-header-navigation>ul>li:first-child {
     margin-left: 0
-}
+} */
 
 .qodef-header-navigation>ul>li:last-child {
     margin-right: 0

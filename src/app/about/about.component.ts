@@ -9,31 +9,27 @@ export class AboutComponent {
   showme: boolean = true;
   showmee: boolean = false;
   showmeee: boolean = false;
-  
 
+  ngOnInit() {}
 
-  ngOnInit() {
-
-  }
-   toggledesign() {
-  this.showme=!this.showme;
- this.showmee=false;
- this.showmeee=false;
+  toggledesign() {
+    this.showme = true;
+    this.showmee = false;
+    this.showmeee = false;
   }
 
   togglemarketing() {
-    this.showmee=!this.showmee;
-    this.showmeee=false;
-    this.showme=false;
-   
-
+    this.showmee = true;
+    this.showme = false;
+    this.showmeee = false;
   }
+
   toggledevs() {
-    this.showmeee=!this.showmeee;
-    this.showme=false;
-    this.showmee=false;
-   
-  }  
+    this.showmeee = true;
+    this.showme = false;
+    this.showmee = false;
+  }
+
 }
 
   

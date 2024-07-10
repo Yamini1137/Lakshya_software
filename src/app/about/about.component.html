@@ -9,7 +9,7 @@
       PLATFORM<br>
       INTEGRATION</h1>
     <p>We are a dedicated team of tech enthusiasts, innovators, and problem solvers committed to
-      redefining the software landscape. Since our inception in [Year], we have been at the forefront
+      redefining the software landscape. Since our inception , we have been at the forefront
       of technological advancements, delivering exceptional
       software solutions that drive transformation and success for businesses across various industries.
     <p>
@@ -70,14 +70,14 @@
       <ul class="nav nav-tabs">
         <li class="nav-item">
           <div id="textfield">
-          <button class="nav-link" (click)="toggledesign()" >DESIGNING</button>
+          <button class="nav-link"  [ngClass]="{'active-tab': showme}"  (click)="toggledesign()" >DESIGNING</button>
           </div>
         </li>
         <li class="nav-item">
-          <button class="nav-link" (click)="togglemarketing()">OUR APPROACH</button>
+          <button class="nav-link"  [ngClass]="{'active-tab': showmee}" (click)="togglemarketing()">OUR APPROACH</button>
         </li>
         <li class="nav-item">
-          <button class="nav-link" (click)="toggledevs()">OUR VALUES</button>
+          <button class="nav-link"  [ngClass]="{'active-tab': showmeee}"  (click)="toggledevs()">OUR VALUES</button>
         </li>
        
       </ul>
@@ -111,7 +111,7 @@
       </div>
     </div>
   
-    <div class="col-lg-6">
+    <div class="col-lg-6 design-image">
       <img *ngIf="showme" src="../../assets/images/aboutus.jpg" alt="noimage" width="850" height="500">
       <img *ngIf="showmee" src="../../assets/images/marketing.jpg" alt="noimage" width="850" height="500">
       <img *ngIf="showmeee" src="../../assets/images/aboutus.jpg" alt="noimage" width="850" height="500">

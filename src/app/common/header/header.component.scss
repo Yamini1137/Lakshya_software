@@ -5,7 +5,7 @@ p a {
 }
 
 .offcanvas {
-    width: 557px;
+    // width: 557px;
     height: 100%;
     padding: 80px 50px;
     background-color: #fff;
@@ -15,6 +15,8 @@ p a {
 
 nav {
     margin-left: auto;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 a img {
@@ -26,36 +28,17 @@ h4 {
     font-size: 1.5rem;
 }
 .sidebar-logo{
-    width: 267px;
+    width: 130px;
 }
 
-input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
-    background-color: transparent;
-    color: #000000;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(70deg, #008066, #122E51, #0C6A66);
-}
 .widget.widget_nav_menu ul li a {
-//  font-size: 20px; 
     text-transform: uppercase;
     letter-spacing: .2em;
     font-weight: 500;
     color: white;
 }
-.widget_deon_core_separator {    margin: 0 0 27px;
-}
-.qodef-button.qodef-layout--outlined {
-    color: #000000;
-border: none;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(70deg, #0B006C, #122E51, #003268, #0C6A66, #008066);
-    background: 0 0;
-}
 .Social-icons{
-    gap: 10px;
+    gap: 20px;
     row-gap: 10px;
     display: flex;
     padding: 10px 0px;
@@ -66,28 +49,47 @@ border: none;
 
 }
 .Social-icons i{ 
-    gap: 10px;
-    row-gap: 10px;
-    display: flex;
-    padding: 10px 0px;
+  
     font-size: 25px;
     background-image: -webkit-linear-gradient(5deg, #0B006C 0%, #122E51 31%, #003268 52%, #0C6A66 71%, #008066 97%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
-@media only screen and (min-width: 1000px) {
-    #qodef-page-header-inner-1 {
+.Social-icons a i:hover{ 
+    background-image: none;
+
+   font-size:30px;
+}
+.qodef-header-navigation>ul {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    white-space: nowrap;
+}
+@media  (max-width:992px) {
+    .qodef-widget-holder{
         display: none;
     }
 }
-@media only screen and (max-width: 1000px) {
-    #qodef-page-header {
-        display: none!important;
-    }
+
+.qodef-header-navigation>ul>li>a>span {
+        background-size: 200% 100%;
+    background-position: left;
+    transition: background-position .4s ease;
+    color: black;
 }
-@media only screen and (min-width: 1000px) {
-    #qodef-page-header {
-        display: block!important;
-    }
+
+.qodef-header-navigation>ul>li>a>span:hover {
+
+    color:#008066;
+    transition: background-position .4s ease
 }
+.navbar.sticky-top {
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .navbar.sticky-top.scrolled {
+    background-color: #ffffff; /* Your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Your desired box-shadow */
+  }
