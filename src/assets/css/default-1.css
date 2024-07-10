@@ -13538,7 +13538,7 @@ blockquote.instagram-media,iframe.instagram-media {
 
 ::selection {
     color: #fff;
-    background: black;
+    background: #333333;
 }
 
 ::-moz-selection {
