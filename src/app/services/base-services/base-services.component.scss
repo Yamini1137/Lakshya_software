@@ -1,9 +1,4 @@
-.services{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color:blue;
-    font-size:60px;
-}
+
 .service-grid {
     background: #fcfcfc;
   }
@@ -108,6 +103,18 @@ h2{font-size: 18px;
 }
 .btn{
   text-align:center;
+}
+.services {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto 45px auto;
+  color: rgb(255, 255, 255);
+  background-image: -webkit-linear-gradient(45deg,#0B006C 0%,  #122E51 31%,    #003268 52%,    #0C6A66 71%,    #008066 97%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  transform: translate(0px, 0px);
+   opacity: 1;
+
 }
 
   
